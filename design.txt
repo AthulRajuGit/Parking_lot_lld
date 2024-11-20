@@ -24,3 +24,12 @@ class spot ()
       - unpark vechile if requested vehilce is same
       - display the availability of spot and type and spot number
 
+class enum vehicle-
+        - car,bike,truck
+
+class vehicleType
+        - abstarct class 
+        - vehicle type and licenseplate is used 
+        - license plate will be used to identify the vehicle or primay key
+        
+
