@@ -1,0 +1,26 @@
+class lot (singleton design)
+    - have list of levels
+    - designed in a singleton pattern
+    - CRUD of levels
+    - park and unpark vehicle
+    - get availabilty
+
+
+class Level()
+      - list of spot according to vehicle type
+      - floor id(primary key)
+      - park and upark vehicle
+      - display availabilty of spots
+      - CRUD on spots
+      - logic to divide the parking spots between vehicle types lets assume 50:40:10 ratio between car,bike,truck
+      - can implement notification if necessary I am adding the design do it accordingly use obseer pattern to implement the same
+
+
+
+class spot ()
+      - spot number
+      - vehicle type
+      - park vehicle if vehicletype and sopt is free
+      - unpark vechile if requested vehilce is same
+      - display the availability of spot and type and spot number
+
